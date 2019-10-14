@@ -1,0 +1,133 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+.container {
+	height: 600px;
+	width: 800px;
+	background-color: white;
+	background-image: url(../img/bg-stripes.png);
+	background-size: 200%;
+	background-position: center;
+	border: 2px solid darkgray;
+}
+.bg {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/bg.png);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper {
+	height: 391px;
+	width: 686px;
+	background-image: url(../img/bg-inside.png);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	position: relative;
+}
+.logo{
+position: absolute;
+top: 15px;
+left:15px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	height: 70%;
+	width: 80%;
+}
+.info {
+	color: silver;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.product-name{
+font-size: 24px;
+}
+
+.product-definition {
+font-size: 14px;
+}
+
+.stars {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.star {
+	padding-right: 3px;
+}
+.selects {
+margin-bottom: 20px;
+}
+.selects select {
+	padding-right: 10px;
+	background-color: #111a28;
+	color: #adafb3;
+}
+.add-button{
+	width: 184px;
+	height: 40px;
+	background-color: #111a28;
+	color: #adafb3;
+	border-radius: 3px;
+	transition: .4s;
+}
+.add-button:hover{
+background-color: white;
+color:black;
+text-shadow: darkgray 1px 1px 1px;
+}
+.color-circles{
+	align-self: flex-start;
+	padding-left: 180px;
+}
+.color-buttons{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.c-button{
+	padding-right: 10px;
+}
+.c-button img:hover{
+	height: 12px;
+	width: 12px;
+	transition: .2s;
+}
